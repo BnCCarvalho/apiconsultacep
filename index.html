@@ -162,8 +162,8 @@
           <input
             name="endereco"
             id="endereco"
-            class="campo__escrita"
-            required
+            class="campo__escrita campo__escrita__readonly"
+            readonly
           />
         </div>
         <div class="formulario__dupla">
@@ -178,17 +178,37 @@
         </div>
         <div class="formulario__campo">
           <label class="campo__etiqueta" for="bairro">Bairro</label>
-          <input name="bairro" id="bairro" class="campo__escrita" required />
+          <input
+            name="bairro"
+            id="bairro"
+            class="campo__escrita campo__escrita__readonly"
+            readonly
+          />
         </div>
         <div class="formulario__dupla">
           <div class="formulario__campo">
             <label class="campo__etiqueta" for="cidade">Cidade</label>
-            <input name="cidade" id="cidade" class="campo__escrita" required />
+            <input
+              name="cidade"
+              id="cidade"
+              class="campo__escrita campo__escrita__readonly"
+              readonly
+            />
           </div>
 
           <div class="formulario__campo">
             <label class="campo__etiqueta" for="estado">UF</label>
-            <select id="estado" name="estado" class="campo__escrita">
+            <input
+              name="estado"
+              id="estado"
+              class="campo__escrita campo__escrita__readonly"
+              readonly
+            />
+            <!-- <select
+              id="estado"
+              name="estado"
+              class="campo__escrita campo__escrita__readonly"
+            >
               <option value="AC">Acre</option>
               <option value="AL">Alagoas</option>
               <option value="AP">Amapá</option>
@@ -217,7 +237,7 @@
               <option value="SE">Sergipe</option>
               <option value="TO">Tocantins</option>
               <option value="EX">Estrangeiro</option>
-            </select>
+            </select> -->
           </div>
         </div>
 
