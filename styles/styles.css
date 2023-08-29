@@ -28,3 +28,7 @@ body {
 #erro-msg {
   color: red;
 }
+
+.campo__escrita__readonly {
+  background-color: rgb(221, 218, 218);
+}
