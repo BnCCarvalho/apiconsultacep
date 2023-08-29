@@ -18,6 +18,7 @@ async function buscaEndereco(cep) {
     cidade.value = consultaCEPConvertida.localidade;
     bairro.value = consultaCEPConvertida.bairro;
     logradouro.value = consultaCEPConvertida.logradouro;
+    
     numero.value = "";
     complemento.value = "";
 
